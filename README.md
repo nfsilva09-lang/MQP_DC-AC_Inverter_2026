@@ -1,3 +1,11 @@
+This is the entirety of the Honeywell High Power Inverter MQP of 2025.
+In this repo are teh LTspice circuit simulations for the creation of 
+DC-DC converter that then supplies a DC-AC inverter. 
+
+Multiple LTspice files contain both test cases, and
+Various stages of the design process of the project.
+
+
 There are multiple files in this Altium Designer Project folder. 
 Below is an explanation of what each file contains and how they work together.
 
