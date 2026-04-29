@@ -1,0 +1,44 @@
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\kyerk\OneDrive\Documents\MQP\LTspice\Current\LT3753_forward_36V_stacked_variableinput.net
+Start Time: Sat Apr 18 15:25:05 2026
+Options: reltol=0.005 abstol=1e-8 vntol=1e-5  gmin=1e-10 cshunt=1e-14  method=gear  maxstep=50n  itl4=50
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = Gear
+gmin = 1e-10
+abstol = 1e-08
+reltol = 0.005
+volttol = 1e-05
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 688.202 seconds.
+
+Files loaded:
+C:\Users\kyerk\OneDrive\Documents\MQP\LTspice\Current\LT3753_forward_36V_stacked_variableinput.net
+C:\Users\kyerk\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\kyerk\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\kyerk\AppData\Local\LTspice\lib\sub\LT1431.sub
+C:\Users\kyerk\AppData\Local\LTspice\lib\sub\LT3753.sub
+C:\Users\kyerk\AppData\Local\LTspice\lib\sub\PC817.sub
+
+Pin_1: AVG(-V(IN)*I(V1))=4204.93575589 FROM 0.0045 TO 0.0049
+Pout_1: AVG(V(OUT)*I(Rload))=3924.3297117 FROM 0.0045 TO 0.0049
+Eff_1: Pout_1/Pin_1=0.933267459843
+Pin_2: AVG(-V(IN)*I(V1))=4109.70727036 FROM 0.0065 TO 0.007
+Pout_2: AVG(V(OUT)*I(Rload))=3927.56325745 FROM 0.0065 TO 0.007
+Eff_2: Pout_2/Pin_2=0.955679565251
+Vmax_1: MAX(V(OUT))=178.300109863 FROM 0.0049 TO 0.00491
+Vmin_1: MIN(V(OUT))=178.29788208 FROM 0.0049 TO 0.00491
+Vripple_1: Vmax_1 - Vmin_1=0.00222778320312
+Vmax_2: MAX(V(OUT))=178.370025635 FROM 0.0069 TO 0.00691
+Vmin_2: MIN(V(OUT))=178.366241455 FROM 0.0069 TO 0.00691
+Vripple_2: Vmax_2 - Vmin_2=0.0037841796875
+Vin_avg_1: AVG(V(IN))=71.9415505783 FROM 0.0045 TO 0.0049
+Iin_avg_1: AVG(I(V1))=-58.4493797395 FROM 0.0045 TO 0.0049
+Vout_avg_1: AVG(V(OUT))=178.289289153 FROM 0.0045 TO 0.0049
+Iout_avg_1: AVG(I(Rload))=22.0110233515 FROM 0.0045 TO 0.0049
+Vin_avg_2: AVG(V(IN))=47.9142275953 FROM 0.0065 TO 0.007
+Iin_avg_2: AVG(I(V1))=-85.7724023031 FROM 0.0065 TO 0.007
+Vout_avg_2: AVG(V(OUT))=178.362726844 FROM 0.0065 TO 0.007
+Iout_avg_2: AVG(I(Rload))=22.02008973 FROM 0.0065 TO 0.007
